@@ -1,5 +1,5 @@
 package futbol;
 
 public interface Comparable {
-	public int compareTo(Futbolista X);
+	public int compareTo(Object X);
 }

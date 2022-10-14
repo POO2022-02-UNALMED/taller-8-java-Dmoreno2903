@@ -43,11 +43,4 @@ public class Portero extends Futbolista{
 	public int compareTo(Object X) {
 		return Math.abs(this.getGolesRecibidos() - ((Portero) X).getGolesRecibidos());
 	}
-
-	@Override
-	public int compareTo(Futbolista X) {
-		return Math.abs(this.getGolesRecibidos() - ((Portero) X).getGolesRecibidos());
-	}
-	
-	
 }
