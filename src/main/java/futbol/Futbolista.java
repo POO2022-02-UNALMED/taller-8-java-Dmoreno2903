@@ -14,7 +14,7 @@ public abstract class Futbolista implements Comparable{
 	protected Futbolista() {
 		this.nombre = "Maradona";
 		this.edad = 30;
-		this.posicion = "Delantero";
+		this.posicion = "delantero";
 	}
 	
 	public String getNombre() {
