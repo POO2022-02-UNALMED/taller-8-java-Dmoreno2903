@@ -44,13 +44,11 @@ public abstract class Futbolista implements Comparable{
 	public String toString() {
 		return "El futbolista " +nombre+
 				" tiene " +edad+
-				" y juega de " +posicion;
+				", y juega de " +posicion;
 	}
 	
 	public boolean equals(Futbolista f) {
-		if (this.nombre == f.getNombre() &&
-				this.edad == f.getEdad() &&
-				this.posicion == f.getPosicion()) {
+		if (this.equals(f)) {
 			return true;
 		}
 		else {
